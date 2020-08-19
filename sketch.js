@@ -83,7 +83,7 @@ function feedPet(){
 
   database.ref('/').update({
     Food:foodObj.getFoodStock(),
-    feedTime:hour()
+    FeedTime:hour()
   })
 
 }
